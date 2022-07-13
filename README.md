@@ -3,6 +3,8 @@
 - [Iniciando um novo projeto](#iniciando-um-novo-projeto)
 - [Entendendo as pastas do projeto](#entendendo-as-pastas-do-projeto)
 - [Conhecendo o Hot Reload](#conhecendo-o-hot-reload)
+- [Botões de depuração](#botões-de-depuração)
+- [Widgets](#widgets)
 - [Glossário](#glossário)
 
 ## Iniciando um novo projeto
@@ -45,6 +47,42 @@ Executa o Hot Reload quando:
 - Hot Reload;
 - Reiniciar;
 - Interromper;
+
+## Widgets
+
+- Tudo no Flutter é Widget;
+- Uma tela é constituida pela união de outros widgets nativos;
+
+### Criando widgets
+
+- Função main que será a primeira a ser executada.
+- Um widget é uma class.
+- `runApp` função importada do Flutter para jogar esse widget na tela do celular.
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+    runApp(App());
+}
+
+class App extends Widget {}
+
+class AppElement extends Element {}
+```
+
+- Visando facilitar, o Flutter possui algumas classes para auxiliar criarmos widgets.
+- A que mais será utilizada é a `StatelessWidget`.
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+    runApp(App());
+}
+
+class App extends StatelessWidget {}
+```
 
 ## Glossário
 
