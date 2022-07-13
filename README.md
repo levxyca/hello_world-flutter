@@ -37,6 +37,15 @@ Executa o Hot Reload quando:
 - Salva um arquivo;
 - Usa `ctrl + f5`.
 
+## Botões de depuração
+
+> Se trata da execução do app;
+
+- Pausar;
+- Hot Reload;
+- Reiniciar;
+- Interromper;
+
 ## Glossário
 
 - [Documentation FLUTTER](https://docs.flutter.dev/)
