@@ -1,4 +1,11 @@
-# hello_world F L U T T E R
+# 🌍 hello_world F L U T T E R
+
+- [Iniciando um novo projeto](#iniciando-um-novo-projeto)
+- [Entendendo as pastas do projeto](#entendendo-as-pastas-do-projeto)
+- [Conhecendo o Hot Reload](#conhecendo-o-hot-reload)
+- [Glossário](#glossário)
+
+## Iniciando um novo projeto
 
 Iniciando um novo projeto com Flutter:
 > Visual Studio Code
@@ -20,6 +27,15 @@ Rodando a aplicação:
 - A pasta **build** é pra onde vai todas as construções do nosso projeto, os resíduos de build;
 - O arquivo **analysis_options.yaml** é para colocar algumas regras de digitação de código;
 - Os arquivos **pubspec** vão auxiliar a trabalhar com dependências externas.
+
+## Conhecendo o Hot Reload
+
+Ao alterar o código, reflete automágicamente no emulador.
+
+Executa o Hot Reload quando:
+
+- Salva um arquivo;
+- Usa `ctrl + f5`.
 
 ## Glossário
 
