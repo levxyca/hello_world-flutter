@@ -9,6 +9,7 @@
 - [Scaffold](#scaffold)
 - [Componentizando widgets](#componentizando-widgets)
 - [InheritedWidget](#inheritedwidget)
+- [StatefulWidget](#statefulwidget)
 - [Glossário](#glossário)
 
 ## Iniciando um novo projeto
@@ -117,6 +118,12 @@ class App extends StatelessWidget {}
   - Precisamos passar os filhos;
 - Ele usa o `context` que lembra o conceitos das `props` no desenvolvimento
 - `InheritedNotifier` usando reatividade para conseguir manipular e alterar os valores.
+
+## StatefulWidget
+
+- Criado para separar o estado;
+- Permite que você autogerencie o estado;
+- StatefulWidget também será um classe.
 
 ## Glossário
 
