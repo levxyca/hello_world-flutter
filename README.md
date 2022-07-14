@@ -6,6 +6,7 @@
 - [Botões de depuração](#botões-de-depuração)
 - [Widgets](#widgets)
 - [MaterialApp](#materialapp)
+- [Scaffold](#scaffold)
 - [Glossário](#glossário)
 
 ## Iniciando um novo projeto
@@ -92,6 +93,12 @@ class App extends StatelessWidget {}
 - Dentro dele recebemos várias propriedades;
 - O MaterialApp pré-define o que vai acontecer;
 - O Material é usado para criar uma página.
+
+## Scaffold
+
+- É um widget;
+- Auxilia a criação de uma página;
+- A diferença é a quantidade de outras propriedades que o Scaffold tem.
 
 ## Glossário
 
