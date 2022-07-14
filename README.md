@@ -8,6 +8,7 @@
 - [MaterialApp](#materialapp)
 - [Scaffold](#scaffold)
 - [Componentizando widgets](#componentizando-widgets)
+- [InheritedWidget](#inheritedwidget)
 - [Glossário](#glossário)
 
 ## Iniciando um novo projeto
@@ -106,6 +107,16 @@ class App extends StatelessWidget {}
 - Um arquivo por widget;
 - Importações;
 - `main.dart` importando app.
+
+## InheritedWidget
+
+- Gerenciar regras de negócio;
+- Para criar um InheritedWidget, crie uma classe;
+- Temos duas coisas:
+  - Se podemos atualizar os filhos;
+  - Precisamos passar os filhos;
+- Ele usa o `context` que lembra o conceitos das `props` no desenvolvimento
+- `InheritedNotifier` usando reatividade para conseguir manipular e alterar os valores.
 
 ## Glossário
 
