@@ -5,6 +5,7 @@
 - [Conhecendo o Hot Reload](#conhecendo-o-hot-reload)
 - [Botões de depuração](#botões-de-depuração)
 - [Widgets](#widgets)
+- [MaterialApp](#materialapp)
 - [Glossário](#glossário)
 
 ## Iniciando um novo projeto
@@ -83,6 +84,14 @@ void main() {
 
 class App extends StatelessWidget {}
 ```
+
+## MaterialApp
+
+- Esse widget só será necessário uma única vez na aplicação;
+- Usamos ele no começo;
+- Dentro dele recebemos várias propriedades;
+- O MaterialApp pré-define o que vai acontecer;
+- O Material é usado para criar uma página.
 
 ## Glossário
 
