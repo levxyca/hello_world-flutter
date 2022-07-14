@@ -7,6 +7,7 @@
 - [Widgets](#widgets)
 - [MaterialApp](#materialapp)
 - [Scaffold](#scaffold)
+- [Componentizando widgets](#componentizando-widgets)
 - [Glossário](#glossário)
 
 ## Iniciando um novo projeto
@@ -99,6 +100,12 @@ class App extends StatelessWidget {}
 - É um widget;
 - Auxilia a criação de uma página;
 - A diferença é a quantidade de outras propriedades que o Scaffold tem.
+
+## Componentizando widgets
+
+- Um arquivo por widget;
+- Importações;
+- `main.dart` importando app.
 
 ## Glossário
 
