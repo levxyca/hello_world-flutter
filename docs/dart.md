@@ -2,7 +2,65 @@
 
 > Para uma leitura mais completa com uma introdução a linguagem Dart [acessar aqui](https://www.paulocagol.dev.br/2021/04/00004-introducao-linguagem-dart/#6-operadores-relacionais).
 
-- [Estruturas de repetição no Dart](#estruturas-de-repetição-no-dart)
+- Estruturas de controle
+  - [Estruturas condicionais no Dart](#estruturas-de-condição-no-dart)
+  - [Estruturas de repetição no Dart](#estruturas-de-repetição-no-dart)
+
+## Estruturas condicionais no Dart
+
+- `if`
+
+    ```dart
+    if (2 > 1) {
+        print('2 é maior que 1');
+    }
+    ```
+
+- `else`
+
+    ```dart
+    if (1 > 2) {
+        print('1 é maior que 2');
+    } else {
+        print('1 não é maior que 2');
+    }
+    ```
+
+- `? : ternário`
+
+    ```dart
+    print(1 > 2 ? '1 é maior que 2' : '1 não é maior que 2');
+    ```
+
+- `? ? valor nulo`
+
+    ```dart
+    String valor;
+    print(valor ?? 'Não informado');
+
+    String valor = 'Valor';
+    print(valor ?? 'Informado');
+    ```
+
+- `switch`
+
+    ```dart
+    String cor = 'verde';
+  
+    switch(cor){
+        case 'vermelho':
+            print('É vermelho');
+            break;
+        case 'amarelo':
+            print('É amarelo');
+            break;
+        case 'verde':
+            print('É verde');
+            break;
+        default:
+            print('Cor não encontrada');
+    }
+    ```
 
 ## Estruturas de repetição no Dart
 
