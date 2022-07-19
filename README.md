@@ -1,5 +1,7 @@
 # 🌍 hello_world F L U T T E R
 
+> [Anotações sobre a linguagem Dart](docs\dart.md)
+
 - [Iniciando um novo projeto](#iniciando-um-novo-projeto)
 - [Entendendo as pastas do projeto](#entendendo-as-pastas-do-projeto)
 - [Conhecendo o Hot Reload](#conhecendo-o-hot-reload)
